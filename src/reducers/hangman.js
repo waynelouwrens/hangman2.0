@@ -1,6 +1,6 @@
 import hangman from '../fixtures/hangman'
-import {ADD_GUESS} from '../actions/guesses/add'
-import {CLEAR_GUESSES} from '../actions/guesses/clear'
+import {ADD_GUESS} from '../actions/addGuess'
+import {CLEAR_GUESSES} from '../actions/clearGuess'
 
 export default (currentState = hangman, { type, payload } = {}) => {
   switch(type) {

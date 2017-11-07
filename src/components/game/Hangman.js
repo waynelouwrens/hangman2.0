@@ -1,7 +1,7 @@
 import React, {PureComponent} from 'react'
 import { connect } from 'react-redux'
-import addGuess from '../actions/addGuess'
-import clearGuesses from '../actions/clearGuess'
+import addGuess from './actions/addGuess'
+import clearGuesses from './actions/clearGuess'
 
 
 class Hangman extends PureComponent {
